@@ -55,4 +55,3 @@ def sign_in():
 
 
 
-authentication_blueprint = Blueprint('authentication_blueprint', __name__)
