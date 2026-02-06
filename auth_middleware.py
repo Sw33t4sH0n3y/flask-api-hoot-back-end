@@ -16,4 +16,5 @@ def token_required(f):
         except Exception as error:
             return jsonify({"error": str(error)}), 500
         return f(*args, **kwargs)
+        
     return decorated_function
